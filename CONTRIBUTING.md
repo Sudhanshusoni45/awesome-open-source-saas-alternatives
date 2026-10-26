@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping build this collection. The list starts empty; add categories and SaaS products only when there is a project to list under them.
+Thanks for helping build this collection. Add categories and SaaS products only when there is a project to list under them.
 
 ## Suggest a project
 

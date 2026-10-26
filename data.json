@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "slug": "datafast",
+    "name": "DataFast",
+    "category": "Analytics",
+    "description": "Web analytics focused on traffic sources, conversions, and revenue attribution.",
+    "alternatives": [
+      {
+        "name": "Minilytics",
+        "repo": "surendrapandar/minilytics",
+        "description": "Self-hosted web analytics on Cloudflare that connects traffic sources to conversions and revenue.",
+        "license": "MIT"
+      }
+    ]
+  }
+]
