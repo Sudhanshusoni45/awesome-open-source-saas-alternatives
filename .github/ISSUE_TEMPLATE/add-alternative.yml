@@ -1,0 +1,50 @@
+name: Suggest an alternative
+description: Suggest an open source alternative to a paid SaaS product.
+title: "Add: "
+body:
+  - type: input
+    id: saas-product
+    attributes:
+      label: SaaS product being replaced
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category
+    validations:
+      required: true
+  - type: input
+    id: project-name
+    attributes:
+      label: Open source project name
+    validations:
+      required: true
+  - type: input
+    id: source-url
+    attributes:
+      label: Source code URL
+      description: Link to the project's public source repository.
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: Include the license identifier and a link to the license file.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: Explain what the project does in one sentence, up to 160 characters.
+    validations:
+      required: true
+  - type: textarea
+    id: comparison
+    attributes:
+      label: How does it replace the SaaS product?
+      description: Include relevant documentation links and whether it supports self-hosting.
+    validations:
+      required: true
